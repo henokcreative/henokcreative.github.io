@@ -1,18 +1,19 @@
 body {
     background-color: #000000;
     min-height: 100vh;
-     font-family: sans-serif;
-     line-height: 1.15;
-     -webkit-text-size-adjust: 100%;
-     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-     padding: 40px 0;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 40px 0;
 }
 
 .container.gallery-container {
-    background-color: #343a40;
+    background-color: #000000;
     color: #35373a;
     min-height: 100vh;
-    padding: 30px 50px;
+    padding: 40px;
+   
 }
 
 .gallery-container h1 {
@@ -31,7 +32,7 @@ body {
 }
 
 .tz-gallery {
-    padding: 40px;
+    padding: 0px;
 }
 
 /* Override bootstrap column paddings */
@@ -43,6 +44,8 @@ body {
     width: 100%;
     border-radius: 0;
     position: relative;
+     border: 1px solid #e6e6e6;
+
 }
 
 .tz-gallery .lightbox:before {
@@ -87,4 +90,28 @@ body {
     body {
         padding: 0;
     }
+
 }
+
+.pb-video {
+    border: 1px solid #e6e6e6;
+    padding: 0px;
+}
+
+    .pb-video:hover {
+        background: #2c3e50;
+    }
+
+.pb-video-frame {
+    transition: width 2s, height 2s;
+}
+
+    .pb-video-frame:hover {
+        height: 300px;
+    }
+
+.pb-row {
+
+     padding: 0px;
+}
+</style>
