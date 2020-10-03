@@ -10382,14 +10382,6 @@ body {
   border-radius: 50%;
 }
 
-.container.gallery-container {
-    background-color: #000000;
-    color: #35373a;
-    min-height: 100vh;
-    padding: 40px;
-   
-}
-
 .gallery-container h1 {
     text-align: center;
     margin-top: 50px;
