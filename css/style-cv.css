@@ -124,7 +124,7 @@ section:last-child {
 
 .sectionTitle h1 {
 	font-family: font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	font-style: regular;
+	font-style: normal;
 	font-size: 1.5em;
 	color: #cf8a05;
 }
@@ -137,7 +137,7 @@ section:last-child {
 
 .subDetails {
 	font-size: 0.8em;
-	font-style: italic;
+	font-style: normal;
 	margin-bottom: 3px;
 }
 
