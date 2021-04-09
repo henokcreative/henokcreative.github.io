@@ -90,6 +90,7 @@ body {
   border-width: 2px;
   font-style: normal;
   letter-spacing: 2px;
+  margin: .4rem .8rem;
   white-space: normal;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -103,16 +104,6 @@ body {
   word-break: break-word;
   padding: 0.8rem 2rem;
   border-radius: 0px;
-
-  background-color: #006eba; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-
-
 }
 .btn-sm {
   font-weight: 600;
@@ -736,7 +727,6 @@ pre {
 @media (max-width: 767px) {
   .btn {
     font-size: .75rem !important;
-    display: flex;
   }
   .btn .mbr-iconfont {
     font-size: 1rem !important;
@@ -786,11 +776,6 @@ pre {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
-
 }
 .note-air-layout .dropup .dropdown-menu,
 .note-air-layout .navbar-fixed-bottom .dropdown .dropdown-menu {
@@ -1088,10 +1073,10 @@ body {
 .cid-r7ji6gAv8F {
   padding-top: 150px;
   padding-bottom: 150px;
-  background-image: url("../../../assets/img/bg-masthead.jpg");
+  background-image: url("../../../assets/images/rodion-kutsaev-82627-unsplash-2000x1333.jpg");
 }
 .cid-r7ji6gAv8F .slider-text-two {
-  background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
   display: inline-block;
   outline: 1px solid rgba(0, 0, 0, 0.2);
   outline-offset: -15px;
@@ -1591,20 +1576,4 @@ body {
 .cid-r7jklPWitD .content-text,
 .cid-r7jklPWitD .inner-text {
   color: #ffffff;
-}
-
-.responsive-iframe {
-  
-  position: relative;
-  
-  overflow: hidden;
- 
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
 }
