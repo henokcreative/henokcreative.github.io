@@ -10228,7 +10228,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  max-height: 70vh;
+  
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
