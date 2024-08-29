@@ -11328,7 +11328,7 @@ body {
 .contact-section {
   padding: 1.25rem 2rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/photos/filming-henok.jpg");
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -11346,7 +11346,8 @@ body {
 }
 
 .contact-section {
-  padding-top: 30vh ;
+  padding-top: 25vh ;
+  padding-bottom: 10vh;
 }
 
 .contact-section .card {
