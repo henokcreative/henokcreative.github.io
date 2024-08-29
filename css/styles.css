@@ -11403,3 +11403,6 @@ body {
   background-size: cover;
   border-radius: 50%;
 }
+.video-thumb {
+  box-shadow: var(--mdb-card-box-shadow);
+}
