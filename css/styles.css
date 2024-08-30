@@ -11412,3 +11412,6 @@ body {
 .video-thumb {
   box-shadow: var(--mdb-card-box-shadow);
 }
+.card-img-top {
+  opacity: 0.7 !important;
+}
