@@ -11413,3 +11413,7 @@ body {
   box-shadow: var(--mdb-card-box-shadow);
 }
 
+#signup .card-body {
+  align-items: center !important;
+  gap: 1rem !important
+}
