@@ -11238,7 +11238,6 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/photos/bg-masthead.jpg");
   background-position: center;
@@ -11351,7 +11350,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 25vh ;
+  padding-top: 25vh;
   padding-bottom: 10vh;
 }
 
@@ -11397,18 +11396,17 @@ body {
 
 .footer {
   padding: 5rem 0;
-
 }
 
 .circular--square {
   width: 35%;
-
   position: center;
   margin: 5%;
   background-position: center;
   background-size: cover;
   border-radius: 50%;
 }
+
 .video-thumb {
   box-shadow: var(--mdb-card-box-shadow);
 }
