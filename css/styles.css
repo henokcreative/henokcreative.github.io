@@ -11158,13 +11158,13 @@ body {
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
   outline: none;
-  /* background-color: transparent; */
+  background-color: transparent;
 }
 
 #mainNav .navbar-nav .nav-item:active,
 #mainNav .navbar-nav .nav-item:focus {
   outline: none;
-  /* background-color: transparent; */
+  background-color: transparent; 
 }
 
 @media (min-width: 992px) {
@@ -11172,7 +11172,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    /* background-color: transparent; */
+    background-color: transparent;
     transition: background-color 0.3s ease-in-out;
   }
 
@@ -11417,5 +11417,5 @@ body {
 }
 
 .navbar img {
-  max-width: 15em;
+  max-width: 10em;
 }
